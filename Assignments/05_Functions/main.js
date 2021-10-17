@@ -12,4 +12,4 @@ console.log(operations.toString("factorialize", "th", 10)); //* Output: 3,628,80
 
 operations.delay(() => {
     console.log("Done");
-}, 1000); //* Desc: รอจนกว่าจะครบ 1 วินาที แล้วจึงจะ output ว่า Done
+}, 1000); //* Desc: รอจนกว่าจะครบ 1 วินาที แล้วจึงจะ output ว่า Done ปล. จะไม่รอ และจะทำคำสั่งถัดไปทันที
